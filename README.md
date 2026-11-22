@@ -37,7 +37,7 @@ You can also toggle the effect using the button in Discord's title bar.
 ![Privacy Blur enabled](screenshots/blur_enabled.png)
 
 ### Plugin settings
-![Privacy Blur settings](screenshots/plugin_settings.png)
+![Privacy Blur settings](screenshots/settings.png)
 
 ## Compatibility
 
