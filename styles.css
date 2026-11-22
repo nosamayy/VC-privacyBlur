@@ -1,0 +1,29 @@
+.vc-privacy-blur::after {
+    content: "";
+    position: fixed;
+    inset: 32px 0 0;
+    z-index: 2147483646;
+    pointer-events: none;
+
+    backdrop-filter: blur(var(--vc-privacy-blur-amount, 12px));
+    -webkit-backdrop-filter: blur(var(--vc-privacy-blur-amount, 12px));
+
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.vc-privacy-blur-btn,
+.vc-privacy-blur-icon {
+    -webkit-app-region: no-drag;
+}
+
+.vc-privacy-blur-icon {
+    color: var(--interactive-icon-default);
+}
+
+.vc-privacy-blur-btn[class*="selected"] .vc-privacy-blur-icon {
+    color: var(--interactive-icon-active);
+}
+
+.vc-privacy-blur-btn:hover .vc-privacy-blur-icon {
+    color: var(--interactive-icon-hover);
+}
